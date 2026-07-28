@@ -1,4 +1,4 @@
-# Hi, I'm Yuanlin Lin
+# Hi, I'm Yuanlin
 
 ## What I Do
 
