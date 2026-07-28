@@ -12,7 +12,7 @@ I'm a **Conversational AI Designer** specializing in low-latency, voice-first di
 
 ## Featured
 
-**[AI Interview Follow-up Decision Map](https://github.com/YOUR_USERNAME/ai-interview-decision-map)** — A decision taxonomy for multi-turn AI interviewers, reverse-derived from real dialogues. Documents the *routing contract* (exception lanes, typed probe packs, re-anchor rules). Methodology only; production prompts are not published.
+**[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — A decision taxonomy for multi-turn AI interviewers, reverse-derived from real dialogues. Documents the *routing contract* (exception lanes, typed probe packs, re-anchor rules). Methodology only; production prompts are not published.
 
 ## Key Experience
 
@@ -30,7 +30,7 @@ I'm a **Conversational AI Designer** specializing in low-latency, voice-first di
 
 Prefer GitHub so threads stay in one place:
 
-- Open an issue on the [Decision Map](https://github.com/YOUR_USERNAME/ai-interview-decision-map) repo, or
+- Open an issue on the [Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map) repo, or
 - Use GitHub Discussions / a brief issue on this profile if you only need a hello
 
 I don’t monitor public inboxes regularly, so **please don’t rely on email**.
