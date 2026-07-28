@@ -12,7 +12,7 @@ I'm a **Conversational AI Designer** specializing in low-latency, voice-first di
 
 ## Featured
 
-**[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — A decision taxonomy for multi-turn AI interviewers, reverse-derived from real dialogues. Documents the *routing contract* (exception lanes, typed probe packs, re-anchor rules). Methodology only; production prompts are not published.
+**[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — Routing contract for real-time multi-turn interview agents: exception lanes, typed probe packs, re-anchor rules. Reverse-derived from dialogues. Methodology only (no production prompts).
 
 ## Key Experience
 
