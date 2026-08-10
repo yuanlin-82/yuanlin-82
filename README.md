@@ -19,6 +19,7 @@ Also open to well-scoped remote collaboration when it fits.
 
 | Link | Why |
 | --- | --- |
+| [Session system map](docs/system-map.md) | Whole-session context: 组卷 → 问答/选择 → 题分 → 加权报告 |
 | [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#5-minute-visitor-guide) | Overview router · stop gates · **one failure→contract path** |
 | [From failure to contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md) | Wrong re-anchor target: symptom → layer → principle → eval |
 | [Oral assessment — reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order) | Task vs interaction; fluency ownership; content-completeness limits |
@@ -32,6 +33,8 @@ Also open to well-scoped remote collaboration when it fits.
 - Oral report constructs under automation limits (fluency ownership, content coverage vs examiner depth)
 
 ## Featured
+
+**[Session system map](docs/system-map.md)** — One-page product context (config → live item loop → weighted report); links into the two methodology repos below.
 
 **[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — Dialogue **routing** methodology ([reading order](https://github.com/yuanlin-82/ai-interview-decision-map#suggested-reading-order)):
 
