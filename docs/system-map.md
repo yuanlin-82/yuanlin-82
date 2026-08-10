@@ -17,34 +17,34 @@ This is methodology shape only—**not** a vendor architecture claim, and **not*
 
 ```mermaid
 flowchart TB
-  subgraph CFG["配置 · HR 组卷"]
-    Cat[素质类别] --> Dim[维度<br/>口语 · 沟通 · 协作 · 开放 …]
-    Dim --> Items[题目 · 同维多题型]
-    Items --> Contract[本场合同<br/>顺序 · 维度权重 · 是否追问<br/>时间 · 人数 · 交互语种 ×1]
+  subgraph CFG["Configuration · HR builds the session"]
+    Cat[Competency category] --> Dim[Dimensions e.g.<br/>English oral · Communication<br/>Collaboration · Openness …]
+    Dim --> Items[Items · multiple types per dimension]
+    Items --> Contract[Session contract<br/>order · dimension weights · follow-up on/off<br/>time · capacity · interaction language ×1]
   end
 
-  subgraph LIVE["作答 · 按题循环"]
-    Branch{本题形态}
-    Branch -->|问答题 · 可追问| Speak[数字人播报<br/>形象 · TTS · 生成 = 不同模型拼装]
-    Speak --> ASR[候选人说话 → ASR]
-    ASR --> Fat[一次胖调用<br/>题干 + ASR + 追问包<br/>异常 ∪ 正常 → 下一句]
+  subgraph LIVE["Live loop · per item"]
+    Branch{Item form}
+    Branch -->|Spoken Q&A · follow-up allowed| Speak[Digital human announcer<br/>avatar · TTS · generation = separate models]
+    Speak --> ASR[Candidate speaks → ASR]
+    ASR --> Fat[One fat call<br/>stem + ASR + follow-up pack<br/>abnormal ∪ normal → next utterance]
     Fat --> Speak
-    Stop[单题停止闸<br/>优先: 时间 · 轮次 · 模型判停] -.-> Fat
-    Branch -->|选择 / 量表 · 无追问| Silent[点选作答 · 不说话]
-    Fat -->|停本题| ItemScore
+    Stop[Per-item stop brake<br/>priority: time · rounds · model] -.-> Fat
+    Branch -->|MCQ / scale · no follow-up| Silent[Select answer · no speech]
+    Fat -->|end item| ItemScore
     Silent --> ItemScore
   end
 
-  subgraph SCORE["计分与报告"]
-    ItemScore[题分<br/>问答 → 对话文本 / 选择·量表 → 选项]
-    ItemScore --> Done[按顺序答完 · 候选人点结束]
-    Done --> Total[维度加权 → 总分<br/>口语 = 其中一维 · 子权不公开]
-    Total --> Report[同一份报告]
+  subgraph SCORE["Scoring and report"]
+    ItemScore[Item score<br/>spoken → dialogue text / choice·scale → option]
+    ItemScore --> Done[Finish ordered bank · candidate clicks end]
+    Done --> Total[Dimension-weighted total<br/>English oral = one dimension · sub-weights private]
+    Total --> Report[Single report]
   end
 
-  subgraph SIDE["旁路与已知风险"]
-    Cheat[防作弊旁路<br/>他脸 · 切屏 · 读稿嫌疑 · 有误判]
-    Eq[题间等值风险<br/>同维多题型]
+  subgraph SIDE["Side paths and known risks"]
+    Cheat[Anti-cheat side path<br/>other face · screen switch · script suspicion · false positives]
+    Eq[Item-equivalence risk<br/>multiple types within one dimension]
   end
 
   Contract --> LIVE
@@ -58,9 +58,9 @@ flowchart TB
 
 ### 1. Configuration before the room opens
 
-HR builds a session from **素质类别 → 维度 → 题目**. One dimension may hold several item types (spoken probe, MCQ, Likert-style scale, …). That flexibility creates a real measurement risk: **item equivalence within a dimension** is not automatic.
+HR builds a session from **competency category → dimension → items** (素质类别 → 维度 → 题目). One dimension may hold several item types (spoken probe, MCQ, Likert-style scale, …). That flexibility creates a real measurement risk: **item equivalence within a dimension** is not automatic.
 
-The session contract also locks: item order, dimension weights toward a total, whether spoken follow-up is on, time bounds, room capacity, and **one interaction language** for the whole session. Multilingual support here means *which language the interview is conducted in*—not the same construct as the **oral ability** dimension on the report.
+The session contract also locks: item order, dimension weights toward a total, whether spoken follow-up is on, time bounds, room capacity, and **one interaction language** for the whole session. Multilingual support here means *which language the interview is conducted in*—not the same construct as the **English oral ability** dimension on the report.
 
 ### 2. Two item paths in the live loop
 
@@ -78,7 +78,7 @@ Spoken follow-ups use a **single fat call**: stem + ASR + follow-up pack (abnorm
 - Open items: score from **dialogue text**.  
 - Choice / scale: score from **selected option(s)**.  
 - Each item is scored on its own; **dimension-weighted total and the report appear only after a normal session end**: candidate finishes the HR-ordered bank and clicks end.  
-- **Oral ability** is one report dimension among others (e.g. communication, teamwork, openness). Sub-dimension weights inside oral are **not** published here.
+- **English oral ability** is one report dimension among others (e.g. communication, collaboration, openness). Sub-dimension weights inside oral are **not** published here.
 
 ### 4. Side paths (do not over-read as ability)
 
