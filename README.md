@@ -2,16 +2,26 @@
 
 ## What I Do
 
-I'm a **Conversational AI Designer** focused on **multi-turn dialogue strategy**, **evaluable quality contracts**, and **task-based oral assessment**—especially for voice-first interview products.
+I'm a **Conversational AI Designer** (content / assessment side) focused on **multi-turn dialogue strategy**, **evaluable quality contracts**, and **task-based oral assessment**—especially for voice-first interview products.
 
-Not “prompt copywriting”: I turn business rules into **executable routing** (what to do next turn) and **auditable standards** (what counts as a good / bad reply). Separately, I work the **oral score side**: constructs, composition, and where automation stops.
+**Role boundary:** I own routing contracts, failure taxonomies, probe-quality gates, and oral **construct / composition** design. I do **not** claim full-stack Agent platform ownership or model training. Production prompt bodies stay **private**; public repos are the shareable methodology.
 
-**Routing** answers *what to ask next*. **Oral scores** answer *how speech performed under standard tasks*. Do not merge them with English-medium competency interviews.
+Not “prompt copywriting”: business rules → **executable routing** (what to do next turn) and **auditable standards** (what counts as good / bad). Separately: oral scores—constructs, composition, where automation stops.
+
+**Routing** = *what to ask next*. **Oral scores** = *how speech performed under standard tasks*. Do not merge them with English-medium competency interviews.
 
 ## Open to
 
 **Full-time roles in Beijing** (dialogue / assessment / AI product content-science).  
 Also open to well-scoped remote collaboration when it fits.
+
+## Start here (≈5 minutes)
+
+| Link | Why |
+| --- | --- |
+| [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#5-minute-visitor-guide) | Overview router · stop gates · **one failure→contract path** |
+| [From failure to contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md) | Wrong re-anchor target: symptom → layer → principle → eval |
+| [Oral assessment — reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order) | Task vs interaction; fluency ownership; content-completeness limits |
 
 ## Current Focus
 
@@ -23,21 +33,18 @@ Also open to well-scoped remote collaboration when it fits.
 
 ## Featured
 
-**[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — Dialogue **routing** methodology (start with its [reading order](https://github.com/yuanlin-82/ai-interview-decision-map#suggested-reading-order)):
+**[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — Dialogue **routing** methodology ([reading order](https://github.com/yuanlin-82/ai-interview-decision-map#suggested-reading-order)):
 
-- Stem typing → abnormal families (process / content / cross-turn) → typed normal packs  
-- Stop gates: time hardest, follow-up rounds only, parallel intercept  
-- Probe quality: paired LLM judging; generator ≠ stop brake ≠ offline judge  
-- Field notes: re-anchor, evidence type, process leak into TTS, English-track locale leak  
-- Reverse-derived from dialogues · **methodology only** (no production prompts)
+- Stem typing → abnormal families → typed normal packs  
+- Stop gates: time hardest; generator ≠ stop brake ≠ offline judge  
+- Field notes + [from-failure-to-contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md)  
+- **Methodology only** (no production prompts)
 
-**[English speaking assessment](https://github.com/yuanlin-82/english-speaking-assessment)** — Task-based **oral scoring** methodology (start with its [reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order)):
+**[English speaking assessment](https://github.com/yuanlin-82/english-speaking-assessment)** — Task-based **oral scoring** methodology ([reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order)):
 
-- Elicitation family: task-based vs interaction-based; hard fence from English-medium competency interviews  
-- Report axes: pronunciation accuracy · fluency · content completeness (coverage, not CAF complexity)  
-- Fluency: in-house rate / pause / repair → perceived fluency when vendor “fluency” fails expert alignment  
-- Content completeness as an **automation compromise**: open depth still largely needs examiners; auto batteries constrain answer freedom  
-- Composition shape, missingness, field notes · **methodology only** (no production weights / vendor internals)
+- Task-based vs interaction-based; fence from competency-in-English interviews  
+- Pronunciation · fluency (in-house when vendor fails) · content completeness (automation compromise)  
+- **Methodology only** (no production weights / vendor internals)
 
 ## Key Experience
 
