@@ -1,5 +1,19 @@
 # Hi, I'm Yuanlin
 
+## 中文导读（约1分钟）
+
+我做 **对话式 AI 的内容 / 测评设计**（偏语音招聘场景）：多轮追问怎么走、怎样算问得好，以及任务型英语口语怎么计分。
+
+- **追问路由**（下一问问什么）→ [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
+- **口语能力分**（标准任务下语音表现如何）→ [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)  
+- **整场产品上下文** → [docs/system-map.md](docs/system-map.md)
+
+三者不要混：英语胜任力面试用英语收**岗位证据**，不等于在测口语等级。公开仓是方法论；生产提示词与权重不公开。不做全栈 Agent / 模型训练负责人声称。
+
+求职意向：北京全职（对话 / 测评 / AI 产品内容向）；合适的远程协作也可。
+
+---
+
 ## What I Do
 
 I'm a **Conversational AI Designer** (content / assessment side) focused on **multi-turn dialogue strategy**, **evaluable quality contracts**, and **task-based oral assessment**—especially for voice-first interview products.
