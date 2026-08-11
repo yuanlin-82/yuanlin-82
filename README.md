@@ -101,5 +101,3 @@ Prefer GitHub so threads stay in one place:
 
 - Open an issue on the [Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map) or [English speaking assessment](https://github.com/yuanlin-82/english-speaking-assessment) repo, or
 - Use GitHub Discussions / a brief issue on this profile
-
-I don’t monitor public inboxes regularly, so **please don’t rely on email**.
