@@ -2,15 +2,17 @@
 
 ## 中文导读
 
-我做 **对话式 AI 的内容 / 测评设计**（偏语音招聘场景）：多轮追问怎么走、怎样算问得好，以及任务型英语口语怎么计分。
+国内转发请优先看：**[一页纸：我做什么](docs/zh-overview.md)**。
 
-- **追问路由**（下一问问什么）→ [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
-- **口语能力分**（标准任务下语音表现如何）→ [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)  
-- **整场产品上下文** → [docs/system-map.md](docs/system-map.md)
+我在语音面试里做两件事：下一句该问什么，以及分到底在量什么——不是全栈 Agent，也不是润色话术。
 
-三者不要混：英语胜任力面试用英语收**岗位证据**，不等于在测口语等级。公开仓是方法论；生产提示词与权重不公开。不做全栈 Agent / 模型训练负责人声称。
+- **追问怎么走** → [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
+- **口语能力分** → [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)  
+- **整场上下文** → [docs/system-map.md](docs/system-map.md) · [题分怎么进维度](docs/item-to-dimension-score.md)
 
-求职意向：北京全职（对话 / 测评 / AI 产品内容向）；合适的远程协作也可。
+用英语聊岗位 ≠ 口语定级。公开仓只放方法论；提示词和权重不公开。
+
+目前意向：北京全职（对话 / 测评 / AI 产品内容向）；合适的远程也可。
 
 ---
 
@@ -33,7 +35,9 @@ Also open to well-scoped remote collaboration when it fits.
 
 | Link | Why |
 | --- | --- |
+| [中文一页纸](docs/zh-overview.md) | Beijing / referral forward sheet (Chinese) |
 | [Session system map](docs/system-map.md) | Whole-session context: 组卷 → 问答/选择 → 题分 → 加权报告 |
+| [Item → dimension score](docs/item-to-dimension-score.md) | Competency evidence cells → dimension roll-up (not oral bands) |
 | [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#visitor-guide) | Overview router · stop gates · **one failure→contract path** |
 | [From failure to contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md) | Wrong re-anchor target: symptom → layer → principle → eval |
 | [Oral assessment — reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order) | Task vs interaction; fluency ownership; content-completeness limits |
@@ -48,7 +52,11 @@ Also open to well-scoped remote collaboration when it fits.
 
 ## Featured
 
+**[中文一页纸](docs/zh-overview.md)** — 给内推/同事转发：我做什么、别和什么弄混、先点哪几个链接。
+
 **[Session system map](docs/system-map.md)** — One-page product context (config → live item loop → weighted report); links into the two methodology repos below.
+
+**[Item → dimension score](docs/item-to-dimension-score.md)** — Competency evidence cells → dimension roll-up (shape only; not oral bands).
 
 **[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — Dialogue **routing** methodology ([reading order](https://github.com/yuanlin-82/ai-interview-decision-map#suggested-reading-order)):
 

@@ -10,6 +10,8 @@ This is methodology shape only—**not** a vendor architecture claim, and **not*
 
 - Dialogue **routing** (spoken Q&A follow-ups): [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)
 - **Oral ability** constructs: [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)
+- **Item → dimension** competency score shape: [item-to-dimension-score.md](item-to-dimension-score.md)
+- Chinese one-pager (referrals): [zh-overview.md](zh-overview.md)
 
 ---
 
@@ -75,10 +77,10 @@ Spoken follow-ups use a **single fat call**: stem + ASR + follow-up pack (abnorm
 
 ### 3. Scoring and the report
 
-- Open items: score from **dialogue text**.  
+- Open items: score from **dialogue text** against **job-evidence cells** for the target dimension—see [item-to-dimension-score.md](item-to-dimension-score.md).  
 - Choice / scale: score from **selected option(s)**.  
 - Each item is scored on its own; **dimension-weighted total and the report appear only after a normal session end**: candidate finishes the HR-ordered bank and clicks end.  
-- **English oral ability** is one report dimension among others (e.g. communication, collaboration, openness). Sub-dimension weights inside oral are **not** published here.
+- **English oral ability** is one report dimension among others (e.g. communication, collaboration, openness). Sub-dimension weights inside oral are **not** published here. Oral **composition** lives in the oral repo—do not reuse competency dialogue scores as an oral band.
 
 ### 4. Side paths (do not over-read as ability)
 
