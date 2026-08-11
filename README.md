@@ -1,6 +1,6 @@
 # Hi, I'm Yuanlin
 
-## 中文导读（约1分钟）
+## 中文导读
 
 我做 **对话式 AI 的内容 / 测评设计**（偏语音招聘场景）：多轮追问怎么走、怎样算问得好，以及任务型英语口语怎么计分。
 
@@ -29,12 +29,12 @@ Not “prompt copywriting”: business rules → **executable routing** (what to
 **Full-time roles in Beijing** (dialogue / assessment / AI product content-science).  
 Also open to well-scoped remote collaboration when it fits.
 
-## Start here (≈5 minutes)
+## Start here
 
 | Link | Why |
 | --- | --- |
 | [Session system map](docs/system-map.md) | Whole-session context: 组卷 → 问答/选择 → 题分 → 加权报告 |
-| [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#5-minute-visitor-guide) | Overview router · stop gates · **one failure→contract path** |
+| [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#visitor-guide) | Overview router · stop gates · **one failure→contract path** |
 | [From failure to contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md) | Wrong re-anchor target: symptom → layer → principle → eval |
 | [Oral assessment — reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order) | Task vs interaction; fluency ownership; content-completeness limits |
 
