@@ -1,18 +1,20 @@
 # Hi, I'm Yuanlin
 
-## 中文导读
+## 中文简介
 
-国内转发请优先看：**[一页纸：我做什么](docs/zh-overview.md)**。
+想先看个大概，打开这一页就行：**[一页纸：我做什么](docs/zh-overview.md)**。
 
-我在语音面试里做两件事：下一句该问什么，以及分到底在量什么——不是全栈 Agent，也不是润色话术。
+我做语音 AI 面试这边的内容设计：候选人说完下一句该问什么，以及分数到底在评什么。不是去搭整套 Agent，也不是靠改提示词撑场面。
 
-- **追问怎么走** → [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
-- **口语能力分** → [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)  
-- **整场上下文** → [docs/system-map.md](docs/system-map.md) · [题分怎么进维度](docs/item-to-dimension-score.md)
+仓库大概分三块：
 
-用英语聊岗位 ≠ 口语定级。公开仓只放方法论；提示词和权重不公开。
+- **下一句怎么问** → [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
+- **口语怎么打分** → [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)  
+- **整场面试怎么串起来** → [docs/system-map.md](docs/system-map.md) · [题分怎么汇总到维度](docs/item-to-dimension-score.md)
 
-目前意向：北京全职（对话 / 测评 / AI 产品内容向）；合适的远程也可。
+另外常有人弄混：用英语聊工作经历，和考英语口语水平，不是一回事。这里只写方法，提示词原文和权重不公开。
+
+最近在看北京全职，方向是对话、测评，或 AI 产品里偏内容的工作；远程合适的话也可以聊。
 
 ---
 
@@ -35,7 +37,7 @@ Also open to well-scoped remote collaboration when it fits.
 
 | Link | Why |
 | --- | --- |
-| [中文一页纸](docs/zh-overview.md) | Beijing / referral forward sheet (Chinese) |
+| [中文简介 · 一页纸](docs/zh-overview.md) | 中文自我介绍与仓库入口 |
 | [Session system map](docs/system-map.md) | Whole-session context: 组卷 → 问答/选择 → 题分 → 加权报告 |
 | [Item → dimension score](docs/item-to-dimension-score.md) | Competency evidence cells → dimension roll-up (not oral bands) |
 | [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#visitor-guide) | Overview router · stop gates · **one failure→contract path** |
@@ -52,7 +54,7 @@ Also open to well-scoped remote collaboration when it fits.
 
 ## Featured
 
-**[中文一页纸](docs/zh-overview.md)** — 给内推/同事转发：我做什么、别和什么弄混、先点哪几个链接。
+**[一页纸：我做什么](docs/zh-overview.md)** — 中文说明：我做什么、别和什么弄混、建议先看哪些链接。
 
 **[Session system map](docs/system-map.md)** — One-page product context (config → live item loop → weighted report); links into the two methodology repos below.
 
