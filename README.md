@@ -14,7 +14,9 @@
 
 另外常有人弄混：用英语聊工作经历，和考英语口语水平，不是一回事。这里只写方法，提示词原文和权重不公开。
 
-最近在看北京全职，方向是对话、测评，或 AI 产品里偏内容的工作；远程合适的话也可以聊。
+公开方法也可迁移到更广的对话质量问题：假共情、越界、一次多问、该不该说——同样是 Badcase → 合同 → 质检，不只服务招聘面试。
+
+最近在看北京全职：对话 / 测评 / 内容标定，以及情感智能、垂类评测里「输出好不好、边界在哪里」一类工作；远程合适的话也可以聊。
 
 ---
 
@@ -30,7 +32,7 @@ Not “prompt copywriting”: business rules → **executable routing** (what to
 
 ## Open to
 
-**Full-time roles in Beijing** (dialogue / assessment / AI product content-science).  
+**Full-time roles in Beijing:** dialogue quality, assessment / content calibration, and related work on emotional-intelligence or vertical eval (what counts as good output, where boundaries sit)—not full-stack Agent ownership.  
 Also open to well-scoped remote collaboration when it fits.
 
 ## Start here
