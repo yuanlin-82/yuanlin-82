@@ -16,7 +16,7 @@
 
 | 做 | 不做（或不对外这么说） |
 | --- | --- |
-| 多轮追问怎么分支：答偏了怎么拉回来、不同题型怎么往下挖、什么时候停、怎样算问得好 | 生产环境完整提示词、客户原题、打分权重表 |
+| 多轮追问怎么分支：答偏了怎么拉回来、按作答深浅调节问法、不同题型怎么往下挖、什么时候停、怎样算问得好 | 生产环境完整提示词、客户原题、打分权重表 |
 | 任务型英语口语怎么设计、怎么合成报告；厂商流利度不准时，我们自己认哪一套 | 宣称对等雅思/CEFR，或说语音厂商内部算法是我做的 |
 | 把常被混在一起的「英语面试」分开：测口语能力，和用英语聊岗位经历，不是一回事 | 宣称「对话式口语定级」已经能当正式测评卖（公开材料里写的是难点和门槛） |
 | 会话级整场：跟 HR 谈需求 → 离线整理 → 确认考察重点与题目 → 开启候选人对话（探索设计） | 宣称这套探索设计已是上线生产配置 |
@@ -30,7 +30,7 @@
 
 | | 它回答什么 | 去哪看 |
 | --- | --- | --- |
-| **追问怎么走** | 说完下一句问什么、何时结束这道题 | [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map) |
+| **追问怎么走** | 说完下一句问什么、难度是否贴着作答层次、何时结束这道题 | [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map) |
 | **口语能力分** | 在标准口语题里，发音、流利、内容覆盖大致怎样 | [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment) |
 | **现有产品：整场到报告** | 怎么组卷、作答、打题分、再汇总成维度报告 | [system-map.md](system-map.md) · [题分怎么进维度](item-to-dimension-score.md) |
 | **探索：会话级整场对话** | HR 需求访谈 → 离线变量 → 确认重点与题目 → 开启整场对话 | [full-session-interview](https://github.com/yuanlin-82/full-session-interview) |

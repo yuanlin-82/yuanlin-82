@@ -8,7 +8,7 @@
 
 仓库大概分四块：
 
-- **下一句怎么问** → [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
+- **下一句怎么问**（含作答层次/难度分流） → [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)  
 - **口语怎么打分** → [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)  
 - **现有产品：整场怎么组卷到报告** → [docs/system-map.md](docs/system-map.md) · [题分怎么汇总到维度](docs/item-to-dimension-score.md)  
 - **探索：会话级整场对话怎么串** → [full-session-interview](https://github.com/yuanlin-82/full-session-interview)
@@ -45,13 +45,13 @@ Also open to well-scoped remote collaboration when it fits.
 | [Session system map](docs/system-map.md) | Product context: 组卷 → 问答/选择 → 题分 → 加权报告 |
 | [Full-session interview](https://github.com/yuanlin-82/full-session-interview) | Exploratory session pipeline: HR needs → offline prep → live dialogue |
 | [Item → dimension score](docs/item-to-dimension-score.md) | Competency evidence cells → dimension roll-up (not oral bands) |
-| [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#visitor-guide) | Overview router · stop gates · **one failure→contract path** |
+| [Decision map — visitor guide](https://github.com/yuanlin-82/ai-interview-decision-map#visitor-guide) | Overview router · answer-depth band · stop gates · failure→contract |
 | [From failure to contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md) | Wrong re-anchor target: symptom → layer → principle → eval |
 | [Oral assessment — reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order) | Task vs interaction; fluency ownership; content-completeness limits |
 
 ## Current Focus
 
-- Multi-turn follow-up under real product constraints (exceptions, ASR noise, one question per turn, TTS)
+- Multi-turn follow-up under real product constraints (exceptions, ASR noise, answer-depth match, one question per turn, TTS)
 - Decision contracts that survive language / model swaps
 - Quality loops: paired compares, fatal-first gates, failure taxonomy
 - Stop policy as a **fast parallel brake** beside generation—not only “max rounds” in a doc
@@ -74,9 +74,9 @@ Also open to well-scoped remote collaboration when it fits.
 
 **[AI Interview Follow-up Decision Map](https://github.com/yuanlin-82/ai-interview-decision-map)** — Dialogue **routing** methodology ([reading order](https://github.com/yuanlin-82/ai-interview-decision-map#suggested-reading-order)):
 
-- Stem typing → abnormal families → typed normal packs  
+- Stem typing → abnormal families → **answer-depth band** (scaffold / pin / deepen) → typed packs  
 - Stop gates: time hardest; generator ≠ stop brake ≠ offline judge  
-- Field notes + [from-failure-to-contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md)  
+- Field notes + [from-failure-to-contract](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/from-failure-to-contract.md) · [difficulty mismatch](https://github.com/yuanlin-82/ai-interview-decision-map/blob/main/docs/failure-case-difficulty-mismatch.md)  
 - **Methodology only** (no production prompts)
 
 **[English speaking assessment](https://github.com/yuanlin-82/english-speaking-assessment)** — Task-based **oral scoring** methodology ([reading order](https://github.com/yuanlin-82/english-speaking-assessment#reading-order)):
