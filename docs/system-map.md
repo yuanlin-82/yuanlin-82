@@ -10,6 +10,7 @@ This is methodology shape only—**not** a vendor architecture claim, and **not*
 
 - Dialogue **routing** (spoken Q&A follow-ups): [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)
 - **Oral ability** constructs: [english-speaking-assessment](https://github.com/yuanlin-82/english-speaking-assessment)
+- **Full-session exploration** (HR needs → offline prep → live dialogue; not this product map): [full-session-interview](https://github.com/yuanlin-82/full-session-interview)
 - **Item → dimension** competency score shape: [item-to-dimension-score.md](item-to-dimension-score.md)
 - Chinese one-pager (referrals): [zh-overview.md](zh-overview.md)
 
